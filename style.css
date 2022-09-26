@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .parent {
     padding: 20px;
     display: grid;
@@ -19,3 +24,29 @@
 .item p {
     margin: 0;
 }
+
+.example-banner {
+    background-color: rgb(201, 198, 198);
+    max-width: 900px;
+    height: 300px;
+    margin: 0 auto 20px;
+    display: grid;
+}
+
+.title {
+    color: black;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.full-page-example {
+    background-color: rgb(163, 163, 163);
+    color: black;
+    line-height: 25px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: minmax(auto, 900px);
+    justify-content: center;
+    text-align: justify;
+}
+
