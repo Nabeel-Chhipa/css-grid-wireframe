@@ -48,5 +48,27 @@ body {
     grid-template-columns: minmax(auto, 900px);
     justify-content: center;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
+.photo-example {
+    display: grid;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.photo-example img {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100%;
+    display: block;
+}
+.overlay-text {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: flex-end;
+    background-color: rgb(0, 0, 0, 0.308);
+    color: #fff;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.7;
+}
