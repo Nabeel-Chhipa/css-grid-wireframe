@@ -1,0 +1,21 @@
+.parent {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.item {
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    font-size: 0.77 rem;
+    line-height: 1.7;
+}
+.item:nth-child(1) {
+    grid-row: span 2;
+    font-size: 1.5rem;
+    display: grid;
+    align-content: center;
+}
+.item p {
+    margin: 0;
+}
